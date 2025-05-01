@@ -10,5 +10,9 @@ scikit-fuzzy
 matplotlib
 scikit-learn
 networkx
-chromadb
+
 protobuf==3.20.3
+pysqlite3-binary==0.5.2
+protobuf==3.20.3
+networkx
+chromadb==0.4.22
