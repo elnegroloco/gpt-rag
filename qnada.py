@@ -5,14 +5,8 @@ import pandas as pd
 from dotenv import load_dotenv
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
-import sys
 
-# Force use of pysqlite3 for ChromaDB compatibility
-try:
-    import pysqlite3
-    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
-except ImportError:
-    raise ImportError("pysqlite3 is required for compatibility with ChromaDB")
+
 
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import ChatPromptTemplate
