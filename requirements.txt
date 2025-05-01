@@ -11,3 +11,4 @@ matplotlib
 scikit-learn
 networkx
 chromadb
+protobuf==3.20.3
