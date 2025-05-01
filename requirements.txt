@@ -10,3 +10,4 @@ scikit-fuzzy
 matplotlib
 scikit-learn
 networkx
+chromadb
