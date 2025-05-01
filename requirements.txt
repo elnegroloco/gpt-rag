@@ -1,0 +1,11 @@
+streamlit
+openai
+langchain
+langchain-community
+langchain-openai
+python-dotenv
+pandas
+numpy
+scikit-fuzzy
+matplotlib
+scikit-learn
